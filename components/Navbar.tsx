@@ -16,23 +16,24 @@ const Navbar = () => {
           />
         </div>
         <h1 className="text-white text-[25px] font-semibold">
-          Webchain{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
             {" "}
-            Dev{" "}
+            Abhiroop Reddy Nagireddygari{" "}
           </span>
         </h1>
       </div>
 
       <div className="flex flex-row gap-5 mb-2">
         {Socials.map((social) => (
-          <Image
-            key={social.name}
-            src={social.src}
-            alt={social.name}
-            width={28}
-            height={28}
-          />
+          <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer">
+            <Image
+              key={social.name}
+              src={social.src}
+              alt={social.name}
+              width={28}
+              height={28}
+            />
+          </a>
         ))}
       </div>
     </div>

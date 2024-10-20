@@ -78,17 +78,20 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "Github",
+    src: "/github-mark.svg",
+    url: "https://github.com/Arrowplaz"
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: 'LinkedIn',
+    src: "/LI-In-Bug.png",
+    url: "https://www.linkedin.com/in/abhiroop-reddy/"
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
+    name: 'Email',
+    src: "/email.svg",
+    url: "mailto:Abhiroopreddy2003@gmail.com"
+  }
 ];
 export const Projects = [
   {
