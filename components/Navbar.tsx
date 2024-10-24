@@ -1,46 +1,41 @@
 import { Socials } from "@/constants";
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import DarkModeToggle from "./DarkModeToggle"; 
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20">
-      <div className="flex flex-row gap-3 items-center">
-        <div className="relative">
-          <Image
-            src="/horseLogo.jpg"
-            alt="logo"
-            width={40}
-            height={40}
-            className="w-full h-full object-contain rounded-full"
-          />
-        </div>
-        <h1 className="text-white text-[25px] font-semibold">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-            {" "}
-            Abhiroop Reddy Nagireddygari{" "}
-          </span>
+    <div className="fixed top-0 z-[40] w-full h-[100px] flex justify-between items-center px-10 md:px-20 p-4 shadow-lg bg-white dark:bg-[#1F1B24]">
+      <div className="flex flex-row items-center">
+
+        <div className="w-[40px] h-[40px] rounded-full flex items-center justify-center bg-[#FCA317] dark:bg-[#5A189A]" />
+
+        <h1 className="text-[25px] font-semibold ml-3"> 
+        <span className="text-[#141F3D] dark:text-white">
+          Abhiroop Reddy Nagireddygari
+        </span>
         </h1>
       </div>
 
-      <div className="flex flex-row gap-5 mb-2 bg-gray-200 p-4 rounded border border-gray-300">
+      <div className="flex flex-row gap-5 mb-2 items-center border border-white rounded-lg bg-white"> 
         {Socials.map((social) => (
           <a 
-          className="flex items-center"
-          key={social.name} 
-          href={social.url} 
-          target="_blank" 
-          rel="noopener noreferrer">
-
+            className="flex items-center hover:bg-gray-300 rounded p-1 duration-200" 
+            key={social.name} 
+            href={social.url} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label={`Link to ${social.name}`} 
+          >
             <Image
-              key={social.name}
               src={social.src}
-              alt={social.name}
+              alt={`Link to ${social.name}`} 
               width={28}
               height={28}
             />
           </a>
         ))}
+        <DarkModeToggle /> 
       </div>
     </div>
   );

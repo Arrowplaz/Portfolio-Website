@@ -31,8 +31,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        {children}
-        <Navigation />
+        <div className="mt-8"> {/* Add margin-top to create spacing */}
+          {children}
+        </div>
       </body>
     </html>
   );
