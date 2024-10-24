@@ -26,13 +26,13 @@ const AboutMe = () => {
 
         <div className="max-w-[80%] mx-auto text-gray-800">
           <p className="text-lg mb-4">
-            Hello! I'm Abhiroop Reddy, a recent graduate with a strong background in computer science and economics.
+            Hello! I&apos;m Abhiroop Reddy, a recent graduate with a strong background in computer science and economics.
             I am deeply interested in data analysis and software development, and I love tackling challenging problems with innovative solutions.
             My journey in technology began at Bowdoin College, where I honed my skills in various programming languages and tools.
           </p>
           <p className="text-lg">
             Outside of coding, I enjoy playing squash and working on personal projects that enhance my skills.
-            I'm eager to contribute to impactful projects that leverage data for better decision-making.
+            I&apos;m eager to contribute to impactful projects that leverage data for better decision-making.
           </p>
         </div>
 

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-[#121212] transition duration-150">
       <Head>
-        <title>Abhiroop Reddy's Portfolio</title>
+        <title>Abhiroop Reddy&apos;s Portfolio</title>
         <meta name="description" content="Portfolio of Abhiroop Reddy, a new-grad data scientist and software engineer." />
         <link rel="icon" href="/favicon.ico" />
       </Head>

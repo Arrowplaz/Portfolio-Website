@@ -14,7 +14,7 @@ const ProjectsPage = () => {
       <main className="py-20 transition duration-150">
         <div className="text-center transition duration-150">
           <h1 className="text-5xl font-bold text-[#141F3D] dark:text-white">My Projects</h1>
-          <p className="mt-4 text-lg text-[#141F3D] dark:text-gray-400">Explore my work and the projects I've built.</p>
+          <p className="mt-4 text-lg text-[#141F3D] dark:text-gray-400">Explore my work and the projects I&apos;ve built.</p>
         </div>
 
         <div className="mt-10 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
