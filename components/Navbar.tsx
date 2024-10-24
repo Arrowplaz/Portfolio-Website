@@ -11,9 +11,11 @@ const Navbar = () => {
         <div className="w-[40px] h-[40px] rounded-full flex items-center justify-center bg-[#FCA317] dark:bg-[#5A189A]" />
 
         <h1 className="text-[25px] font-semibold ml-3"> 
-        <span className="text-[#141F3D] dark:text-white">
-          Abhiroop Reddy Nagireddygari
-        </span>
+        <a href="/">
+          <span className="text-[#141F3D] dark:text-white">
+            Abhiroop Reddy Nagireddygari
+          </span>
+        </a>
         </h1>
       </div>
 

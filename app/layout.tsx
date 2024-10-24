@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Navigation from "@/components/Navigation";
+import Navigation from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,6 +35,7 @@ export default function RootLayout({
         <div className="mt-8"> {/* Add margin-top to create spacing */}
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );

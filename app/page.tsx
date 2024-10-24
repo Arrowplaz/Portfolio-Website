@@ -36,8 +36,8 @@ export default function Home() {
             My Projects
           </a>
           <a 
-            href="" 
-            className="inline-block px-6 py-3 text-sm font-medium text-[#141F3D] bg-white border border-gray-300 rounded-lg hover:bg-gray-100 transition duration-150 ease-in-out"
+            href="about-me" 
+            className="inline-block px-6 py-3 text-sm font-medium text-white bg-[#FCA317] dark:bg-[#5A189A] rounded-lg hover:bg-[#F89A12] transition duration-150 ease-in-out"
           >
              About me
           </a>
