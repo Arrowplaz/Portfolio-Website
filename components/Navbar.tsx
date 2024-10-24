@@ -1,6 +1,5 @@
-import { Socials } from "@/constants";
 import React from "react";
-import Image from "next/image";
+
 import DarkModeToggle from "./DarkModeToggle"; 
 
 const Navbar = () => {
@@ -18,27 +17,7 @@ const Navbar = () => {
         </a>
         </h1>
       </div>
-
-      <div className="flex flex-row gap-5 mb-2 items-center border border-white rounded-lg bg-white"> 
-        {Socials.map((social) => (
-          <a 
-            className="flex items-center hover:bg-gray-300 rounded p-1 duration-200" 
-            key={social.name} 
-            href={social.url} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            aria-label={`Link to ${social.name}`} 
-          >
-            <Image
-              src={social.src}
-              alt={`Link to ${social.name}`} 
-              width={28}
-              height={28}
-            />
-          </a>
-        ))}
-        <DarkModeToggle /> 
-      </div>
+      <DarkModeToggle />
     </div>
   );
 };

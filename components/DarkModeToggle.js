@@ -24,7 +24,8 @@ const DarkModeToggle = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className="p-2 transition duration-200 hover:bg-gray-300 rounded p-1"
+      className={`flex items-center justify-center p-2 transition duration-200 rounded-full 
+        ${!isDarkMode ? "bg-[#1F1B24] border-[#1F1B24] text-white" : "bg-white border-white text-black"}`}
     >
       {isDarkMode ? "Light Mode" : "Dark Mode"}
     </button>

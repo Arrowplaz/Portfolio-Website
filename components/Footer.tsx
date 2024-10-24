@@ -1,27 +1,32 @@
 import React from 'react';
 import { Socials } from '../constants'; // Importing the Socials array
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 dark:bg-gray-900 text-white py-6">
-      <div className="max-w-4xl mx-auto flex justify-between items-center px-4">
-        {/* Logo */}
-        <div className="flex items-center">
-          <img src="/logo.png" alt="Logo" className="h-10 mr-2" /> {/* Replace with your logo path */}
-          <h2 className="text-lg font-semibold">Abhiroop Reddy</h2>
-        </div>
-
+    <footer className="bg-white dark:bg-[#1F1B24] text-[#141F3D] dark:text-white py-6">
+      <div className="max-w-4xl mx-auto flex flex-col items-center justify-center px-4">
         {/* Social Links */}
-        <div className="flex space-x-4">
-          {Socials.map((social, index) => (
-            <a key={index} href={social.url} target="_blank" rel="noopener noreferrer" className="transition duration-150 ease-in-out hover:opacity-75">
-              <img src={social.src} alt={social.name} className="h-8 w-8" />
+        <div className="flex flex-row gap-5 items-center"> 
+          {Socials.map((social) => (
+            <a 
+              className="hover:bg-gray-300 dark:hover:bg-gray-600 rounded-full p-2 duration-200" 
+              key={social.name} 
+              href={social.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label={`Link to ${social.name}`} 
+            >
+              <Image
+                src={social.src}
+                alt={`Link to ${social.name}`} 
+                width={28}
+                height={28}
+                className="filter dark:invert" // Ensures icons are visible in dark mode
+              />
             </a>
           ))}
         </div>
-      </div>
-      <div className="text-center mt-4 text-gray-400">
-        © {new Date().getFullYear()} Abhiroop Reddy. All rights reserved.
       </div>
     </footer>
   );
