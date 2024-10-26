@@ -1,6 +1,7 @@
 import React from "react";
 
 import DarkModeToggle from "./DarkModeToggle"; 
+import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   return (
@@ -17,7 +18,11 @@ const Navbar = () => {
         </a>
         </h1>
       </div>
-      <DarkModeToggle />
+
+      <div className="flex items-center space-x-">
+        <DarkModeToggle />
+        <HamburgerMenu />
+      </div>
     </div>
   );
 };

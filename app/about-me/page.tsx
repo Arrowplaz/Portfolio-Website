@@ -8,37 +8,41 @@ import { Autoplay } from "swiper/modules";
 
 const AboutMe = () => {
   return (
-    <div className="min-h-screen w-screen bg-white text-[#141F3D] pt-[120px]"> {/* Added padding to top */}
-      <div className="flex flex-col gap-20 max-w-[80%] mx-auto p-8 text-center"> {/* Centered text with mx-auto */}
+    <div className="min-h-screen w-screen bg-white text-[#141F3D] pt-[120px] dark:bg-[#121212] transition duration-150"> 
+      <div className="flex flex-col gap-20 max-w-[80%] mx-auto p-8 text-center"> 
         <div className="flex flex-col items-center gap-4">
-          <h1 className="font-semibold text-[50px] text-[#FCA317]">
+          <h1 className="font-semibold text-[50px] text-[#FCA317] dark:text-white">
             About Me
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              {" "}
-              &{" "}
-            </span>
-            My Journey
           </h1>
-          <p className="text-gray-600 text-[20px]">
+          <p className="text-gray-600 text-[20px] dark:text-white">
             Aspiring Data Scientist & Software Engineer passionate about leveraging technology to make a difference.
           </p>
         </div>
 
-        <div className="max-w-[80%] mx-auto text-gray-800">
-          <p className="text-lg mb-4">
-            Hello! I&apos;m Abhiroop Reddy, a recent graduate with a strong background in computer science and economics.
-            I am deeply interested in data analysis and software development, and I love tackling challenging problems with innovative solutions.
-            My journey in technology began at Bowdoin College, where I honed my skills in various programming languages and tools.
+        <div className="max-w-[80%] mx-auto text-gray-800 dark:text-white">
+          <p className="text-lg mb-6">
+            Hello! I’m Abhiroop Reddy Nagireddygari, a senior at Bowdoin College, pursuing a double major in Computer Science and Economics. My journey began with a passion for physics, but as AI's impact grew, I knew I wanted to be part of this transformative field. From building complex computer vision models for sports analysis to developing efficient full-stack applications, I’m driven by a deep curiosity and a dedication to innovative problem-solving.
           </p>
           <p className="text-lg">
-            Outside of coding, I enjoy playing squash and working on personal projects that enhance my skills.
-            I&apos;m eager to contribute to impactful projects that leverage data for better decision-making.
+            Beyond academics, I’m an avid squash player and enjoy pushing myself both mentally and physically. Currently, I’m seeking full-time software engineering or data science roles, where I hope to contribute to impactful projects while growing in a collaborative environment. Welcome to my portfolio—feel free to explore my projects and get in touch!
           </p>
+
+          <div className="pd-200">
+            <a 
+              href="my-projects" 
+              className="inline-block px-8 py-4 text-sm font-medium text-white bg-[#FCA317] dark:bg-[#5A189A] rounded-lg hover:bg-[#F89A12] transition duration-150 ease-in-out mt-4" // Added mt-4 for top margin
+            >
+              My Projects
+            </a>
+          </div>
         </div>
 
+
+        
+
         <div className="flex flex-col items-center gap-4 mt-10">
-          <h2 className="font-semibold text-[#141F3D] text-[30px]">Skills & Technologies</h2>
-          <p className="text-gray-600 text-[18px]">
+          <h2 className="font-semibold text-[#141F3D] text-[30px] dark:text-white">Skills & Technologies</h2>
+          <p className="text-gray-600 text-[18px] dark:text-white">
             Proficient in:
           </p>
           <Swiper

@@ -95,24 +95,22 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Blueberry Muffin (File Sharing System)",
+    text: "Blueberry-Muffin is a Java-based distributed file management system that utilizes a multi-tier client-server architecture. It effectively manages file operations through distributed storage and load balancing, providing a scalable solution for reliable data distribution. With automated server-client interactions and custom error handling, it enhances both performance and user experience",
+    src: "/blueberry-muffin.jpg",
+    href: "https://github.com/Arrowplaz/Blueberry-Muffin",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "Portfolio Website",
+    text: "I developed a personal portfolio website using Next.js and TSX to showcase my projects and skills. The site features a modern, responsive design for an enhanced user experience across devices. I deployed it on Vercel, ensuring fast load times and easy updates. This project demonstrates my expertise in building dynamic web applications and commitment to clean, user-friendly interfaces",
+    src: "/portfolio.png",
+    href: "https://github.com/Arrowplaz/Portfolio-Website",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
-  },
-  {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Squash Player Tracking & Analytics",
+    text: "I developed a computer vision model that tracks players’ positions on the court over the course of games using clustering techniques. Leveraging TensorFlow and Mask R-CNN, the system analyzes player movements and predicts shot outcomes, offering valuable insights for performance enhancement. This project showcases my expertise in machine learning, data analysis, and real-time application development in sports analytics",
+    src: "/Squash_Photo.avif",
+    href: "https://www.google.com/?client=safari",
   },
 ];
 

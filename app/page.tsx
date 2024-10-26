@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center py-20">
-        <h1 className="text-5xl font-bold text-[#141F3D] dark:text-white transition duration-150">Hi, I’m Abhiroop Reddy</h1>
+        <h1 className="text-5xl font-bold text-[#141F3D] dark:text-white transition duration-150">Hi, I&apos;m Abhiroop Reddy</h1>
         <p className="mt-4 text-lg text-[#141F3D] dark:text-white transition duration-150">Aspiring Data Scientist & Software Engineer</p>
 
         <div className="mt-10">
@@ -22,25 +22,42 @@ export default function Home() {
         </div>
 
         <div className='mt-10 flex flex-col items-center'>
-          <h2 className="text-4xl font-bold text-[#141F3D] dark:text-white transition duration-150">About Me</h2>
+        <h2 className="text-2xl font-semibold mb-2 text-[#141F3D] dark:text-white transition duration-150">
+          Let's Build the Future Together
+        </h2>
           <p className="mt-4 text-lg text-[#141F3D] text-center max-w-xl dark:text-white transition duration-150">
-            Thanks for checking out my portfolio! Please use the buttons below to check out my projects or to learn more about me and my skills!
+          As a senior majoring in Computer Science and Economics, I&apos;m excited to take the next step in my journey. 
+          With hands-on experience in AI/ML, full-stack development, and data science, I&apos;m actively seeking full-time 
+          opportunities to contribute my skills to innovative teams. 
+          Let&apos;s collaborate and create solutions that matter.
           </p>
         </div>
 
-        <div className="mt-10 space-x-4">
-          <a 
-            href="my-projects" 
-            className="inline-block px-6 py-3 text-sm font-medium text-white bg-[#FCA317] dark:bg-[#5A189A] rounded-lg hover:bg-[#F89A12] transition duration-150 ease-in-out"
-          >
-            My Projects
-          </a>
-          <a 
-            href="about-me" 
-            className="inline-block px-6 py-3 text-sm font-medium text-white bg-[#FCA317] dark:bg-[#5A189A] rounded-lg hover:bg-[#F89A12] transition duration-150 ease-in-out"
-          >
-             About me
-          </a>
+        <div className="mt-10 flex flex-col items-center">
+          <div className="flex space-x-4">
+            <a 
+              href="my-projects" 
+              className="inline-block px-6 py-3 text-sm font-medium text-white bg-[#FCA317] dark:bg-[#5A189A] rounded-lg hover:bg-[#F89A12] transition duration-150 ease-in-out"
+            >
+              My Projects
+            </a>
+            <a 
+              href="about-me" 
+              className="inline-block px-6 py-3 text-sm font-medium text-white bg-[#FCA317] dark:bg-[#5A189A] rounded-lg hover:bg-[#F89A12] transition duration-150 ease-in-out"
+            >
+              About Me
+            </a>
+          </div>
+          
+          <div className="mt-4">
+            <a 
+              href="/resume.pdf" 
+              download 
+              className="inline-block px-6 py-3 text-sm font-medium text-white bg-[#FCA317] dark:bg-[#5A189A] rounded-lg hover:bg-[#F89A12] transition duration-150 ease-in-out"
+            >
+              Download My Resume
+            </a>
+          </div>
         </div>
       </main>
     </div>

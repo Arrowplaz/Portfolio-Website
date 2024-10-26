@@ -25,6 +25,7 @@ const ProjectsPage = () => {
               title={project.title}
               description={project.text}
               imageSrc={project.src}
+              href={project.href}
             />
           ))}
         </div>
