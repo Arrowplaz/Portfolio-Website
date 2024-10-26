@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className='mt-10 flex flex-col items-center'>
         <h2 className="text-2xl font-semibold mb-2 text-[#141F3D] dark:text-white transition duration-150">
-          Let's Build the Future Together
+          Let&aposs Build the Future Together
         </h2>
           <p className="mt-4 text-lg text-[#141F3D] text-center max-w-xl dark:text-white transition duration-150">
           As a senior majoring in Computer Science and Economics, I&apos;m excited to take the next step in my journey. 
