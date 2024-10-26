@@ -21,7 +21,7 @@ const AboutMe = () => {
 
         <div className="max-w-[80%] mx-auto text-gray-800 dark:text-white">
           <p className="text-lg mb-6">
-            Hello! I&aposm Abhiroop Reddy Nagireddygari, a senior at Bowdoin College, pursuing a double major in Computer Science and Economics. My journey began with a passion for physics, but as AI's impact grew, I knew I wanted to be part of this transformative field. From building complex computer vision models for sports analysis to developing efficient full-stack applications, I’m driven by a deep curiosity and a dedication to innovative problem-solving.
+            Hello! I&aposm Abhiroop Reddy Nagireddygari, a senior at Bowdoin College, pursuing a double major in Computer Science and Economics. My journey began with a passion for physics, but as AI&aposs impact grew, I knew I wanted to be part of this transformative field. From building complex computer vision models for sports analysis to developing efficient full-stack applications, I’m driven by a deep curiosity and a dedication to innovative problem-solving.
           </p>
           <p className="text-lg">
             Beyond academics, I&aposm an avid squash player and enjoy pushing myself both mentally and physically. Currently, I&aposm seeking full-time software engineering or data science roles, where I hope to contribute to impactful projects while growing in a collaborative environment. Welcome to my portfolio—feel free to explore my projects and get in touch!
