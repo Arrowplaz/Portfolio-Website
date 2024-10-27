@@ -68,6 +68,14 @@ const HamburgerMenu = () => {
                   Projects
                 </a>
               </li>
+              <li>
+                <a
+                  href="/my-resume"
+                  className="block text-gray-800 dark:text-white"
+                >
+                  My Resume
+                </a>
+              </li>
             </ul>
           </motion.div>
         )}

@@ -15,16 +15,19 @@ const AboutMe = () => {
             About Me
           </h1>
           <p className="text-gray-600 text-[20px] dark:text-white">
-            Aspiring Data Scientist & Software Engineer passionate about leveraging technology to make a difference.
+            An Aspiring Data Scientist & Software Engineer passionate about leveraging technology to make a difference
           </p>
         </div>
 
         <div className="max-w-[80%] mx-auto text-gray-800 dark:text-white">
           <p className="text-lg mb-6">
-            Hello! I&aposm Abhiroop Reddy Nagireddygari, a senior at Bowdoin College, pursuing a double major in Computer Science and Economics. My journey began with a passion for physics, but as AI&aposs impact grew, I knew I wanted to be part of this transformative field. From building complex computer vision models for sports analysis to developing efficient full-stack applications, I’m driven by a deep curiosity and a dedication to innovative problem-solving.
+          I started my journey in Computer Science when I first used OpenAI&apos;s ChatGPT. I was impressed by how the program could understand and respond like a person. This experience sparked my interest in this exciting and fast-moving field.
+
+Since that moment, I have focused on learning more about Artificial Intelligence and Data Science. I worked hard in my classes, on projects, and in research to understand how machine learning, natural language processing, and data analysis work. This dedication has shaped my education and my passion for creating technology that makes a difference.
           </p>
+
           <p className="text-lg">
-            Beyond academics, I&aposm an avid squash player and enjoy pushing myself both mentally and physically. Currently, I&aposm seeking full-time software engineering or data science roles, where I hope to contribute to impactful projects while growing in a collaborative environment. Welcome to my portfolio—feel free to explore my projects and get in touch!
+          Outside of my academics and career, I am an avid squash player who currently competes for the Bowdoin Polar Bears. After graduation, I aim to continue my squash career through continued training and by participating in tournaments across the globe! I also love music and I DJ as a hobby. The creativity and personality I can express via my music is something I have always wanted to foster, and, after seeing a teammate use a CDJ for the first time, I was hooked!
           </p>
 
           <div className="pd-200">

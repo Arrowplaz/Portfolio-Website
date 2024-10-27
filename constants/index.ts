@@ -108,9 +108,9 @@ export const Projects = [
   },
   {
     title: "Squash Player Tracking & Analytics",
-    text: "I developed a computer vision model that tracks players’ positions on the court over the course of games using clustering techniques. Leveraging TensorFlow and Mask R-CNN, the system analyzes player movements and predicts shot outcomes, offering valuable insights for performance enhancement. This project showcases my expertise in machine learning, data analysis, and real-time application development in sports analytics",
+    text: "I developed a computer vision model that tracks players' positions on the court over the course of games using clustering techniques. Leveraging TensorFlow and Mask R-CNN, the system analyzes player movements and predicts shot outcomes, offering valuable insights for performance enhancement. This project showcases my expertise in machine learning, data analysis, and real-time application development in sports analytics",
     src: "/Squash_Photo.avif",
-    href: "https://www.google.com/?client=safari",
+    href: "https://github.com/Arrowplaz/Honors-Project-Player-Tracking-in-Squash-for-Analytics",
   },
 ];
 
