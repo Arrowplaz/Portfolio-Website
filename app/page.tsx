@@ -16,8 +16,8 @@ export default function Home() {
 
         <div className="mt-10">
           <img
-            src="/background2.jpg" // Replace with your image path
-            alt="Description of the image" // Add a description for accessibility
+            src="/background2.jpg"
+            alt="Description of the image" 
             className="max-w-full h-auto rounded-lg shadow-md"
           />
         </div>

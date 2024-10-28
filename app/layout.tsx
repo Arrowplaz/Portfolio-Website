@@ -28,28 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Inline script to set the theme immediately on page load */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                  document.documentElement.classList.add('dark');
-                } else {
-                  document.documentElement.classList.remove('dark');
-                }
-              })();
-            `,
-          }}
-        />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
         <Transition />
-        <div className="mt-8"> {/* Add margin-top to create spacing */}
+        <div className="mt-8"> 
           {children}
         </div>
         <Footer />

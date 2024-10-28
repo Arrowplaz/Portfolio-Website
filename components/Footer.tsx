@@ -1,12 +1,11 @@
 import React from 'react';
-import { Socials } from '../constants'; // Importing the Socials array
+import { Socials } from '../constants';
 import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="bg-white dark:bg-[#1F1B24] text-[#141F3D] dark:text-white py-6">
       <div className="max-w-4xl mx-auto flex flex-col items-center justify-center px-4">
-        {/* Social Links */}
         <div className="flex flex-row gap-5 items-center"> 
           {Socials.map((social) => (
             <a 
@@ -22,7 +21,7 @@ const Footer = () => {
                 alt={`Link to ${social.name}`} 
                 width={28}
                 height={28}
-                className="filter dark:invert" // Ensures icons are visible in dark mode
+                className="filter dark:invert"
               />
             </a>
           ))}

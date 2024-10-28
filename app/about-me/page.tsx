@@ -2,7 +2,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { SkillData } from "@/constants"; // Assuming this contains your skills data
+import { SkillData } from "@/constants"; 
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 
@@ -38,63 +38,6 @@ Since that moment, I have focused on learning more about Artificial Intelligence
               My Projects
             </a>
           </div>
-        </div>
-
-
-        
-
-        <div className="flex flex-col items-center gap-4 mt-10">
-          <h2 className="font-semibold text-[#141F3D] text-[30px] dark:text-white">Skills & Technologies</h2>
-          <p className="text-gray-600 text-[18px] dark:text-white">
-            Proficient in:
-          </p>
-          <Swiper
-            slidesPerView={5}
-            loop={true}
-            autoplay={{
-              delay: 0,
-              disableOnInteraction: false,
-            }}
-            speed={5000}
-            modules={[Autoplay]}
-            className="max-w-[80%]"
-          >
-            {SkillData.map((skill, index) => (
-              <SwiperSlide key={index}>
-                <Image
-                  src={skill.Image}
-                  alt={skill.name}
-                  width={skill.width}
-                  height={skill.height}
-                  className="rounded-lg" // Removed shadow
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-          <Swiper
-            slidesPerView={5}
-            loop={true}
-            autoplay={{
-              delay: 0,
-              disableOnInteraction: false,
-              reverseDirection: true,
-            }}
-            speed={5000}
-            modules={[Autoplay]}
-            className="max-w-[80%]"
-          >
-            {SkillData.map((skill, index) => (
-              <SwiperSlide key={index}>
-                <Image
-                  src={skill.Image}
-                  alt={skill.name}
-                  width={skill.width}
-                  height={skill.height}
-                  className="rounded-lg" // Removed shadow
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
         </div>
       </div>
     </div>
